@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/COSMOS/static/css/main.7d2493cb.css",
+    "main.js": "/COSMOS/static/js/main.46dc0f3e.js",
+    "static/media/loading.svg": "/COSMOS/static/media/loading.91f49068ed6731c3bcea42776f4cb3c1.svg",
+    "index.html": "/COSMOS/index.html",
+    "main.7d2493cb.css.map": "/COSMOS/static/css/main.7d2493cb.css.map",
+    "main.46dc0f3e.js.map": "/COSMOS/static/js/main.46dc0f3e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d2493cb.css",
+    "static/js/main.46dc0f3e.js"
+  ]
+}
