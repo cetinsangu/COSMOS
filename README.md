@@ -1,3 +1,19 @@
+# [NASA APOD FEEDER | COSMOS](https://cetinsangu.github.io/COSMOS/) | ReactJS & Tailwind CSS
+
+### Refreshable NASA Apod feeder with a loader svg. Each fetching session has 5 contents. Fetched the img, title, explanation and the date. 
+
+## What did I use for this project?
+
+- The useState hook. I managed the readMore and loading states. Also stored the data.
+- The useEffect hook to fetching the data. Used this hook cause I wanted just 1 render at the beginning and to accomplish this, used the [] dependancy.
+- To remove the content, I used the filter array method.
+- Read More/Less functionality by substring the string. I would also use slice method but I preferred the substring method.
+- Async-await function to fetching the data.
+- Loader animation.
+
+## Example Img
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
