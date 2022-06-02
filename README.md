@@ -13,7 +13,7 @@
 
 ## Example Img
 
-![example-img-cosmos](https://imgur.com/a/dEiPgei)
+![example-img-cosmos](https://i.imgur.com/VZnSzuz.png)
 
 
 # Getting Started with Create React App
