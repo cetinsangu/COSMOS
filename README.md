@@ -11,7 +11,9 @@
 - Async-await function to fetching the data.
 - Loader animation.
 
-## Example Img
+## Example Image
+
+![example-img-cosmos](https://i.imgur.com/VZnSzuz.png)
 
 
 # Getting Started with Create React App
