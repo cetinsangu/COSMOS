@@ -44,13 +44,13 @@ function App() {
       </h1>
       <span className="flex bg-white h-2 w-48 mb-10 mx-auto bg-gradient-to-r from-indigo-800 via-sky-600"></span>
       {item.length === 0 && (
-        <div className="flex flex-col flex justify-center items-center">
-          <p className="text-center text-xl mt-8 mb-5 font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-zinc-400 via-zinc-200">
+        <div className="container mx-auto flex flex-col justify-center items-center">
+          <p className="text-xl mt-8 mb-5 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-sky-900 to-sky-200">
             There is nothing left...
           </p>
           <button
             onClick={fetchData}
-            className="w-1/2 px-24 py-3 bg-slate-300 bg-gradient-to-r from-zinc-400 via-zinc-200 border-0 hover:bg-cyan-400"
+            className="px-24 py-3 text-white bg-gradient-to-r from-sky-900 to-sky-400 border-0 hover:from-sky-400 to-sky-900 transition-colors"
           >
             REFRESH?
           </button>
@@ -61,7 +61,7 @@ function App() {
         return (
           <div
             key={index}
-            className="flex flex-col bg-slate-300 w-1/2 h-1/2 mx-auto my-5 rounded-3xl overflow-hidden"
+            className="container mx-auto flex flex-col justify-center  bg-slate-300 my-8 rounded-3xl overflow-hidden"
           >
             <img src={url} alt={title} />
             <header className="flex my-5 justify-between mx-5">
@@ -79,7 +79,7 @@ function App() {
             </p>
             <button
               onClick={() => filterBtn(title)}
-              className="mx-auto border border-sky-500 my-10 w-1/2"
+              className="border border-sky-500 my-10 w-1/2 mx-auto"
             >
               Remove This Content
             </button>
@@ -87,14 +87,12 @@ function App() {
         );
       })}
       {item.length !== 0 && (
-        <div className="flex flex-col flex justify-center items-center">
-          <button
-            onClick={fetchData}
-            className="w-1/2 px-24 py-3 mb-12 mt-8 bg-slate-300 bg-gradient-to-r from-zinc-400 via-zinc-200 border-0 hover:bg-cyan-400 "
-          >
-            REFRESH?
-          </button>
-        </div>
+        <button
+          onClick={fetchData}
+          className="flex justify-center items-center mx-auto w-1/2 px-24 py-3 my-10 text-white bg-gradient-to-r from-sky-900 to-sky-400 border-0 hover:from-sky-400 to-sky-900"
+        >
+          REFRESH?
+        </button>
       )}
     </>
   );
